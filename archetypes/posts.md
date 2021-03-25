@@ -1,10 +1,14 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: "{{ replace .TranslationBaseName "-" " " | title }}"
 date: {{ .Date }}
+lastmod: {{ .Date }}
 draft: true
-toc: false
-images:
-tags: 
-  - untagged
+keywords: []
+tags: []
+categories: []
+author: "Bowser"
+toc: true
+comment: true
+autoCollapseToc: false
 ---
 
